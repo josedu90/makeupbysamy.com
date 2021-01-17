@@ -1,3 +1,17 @@
 path: web/wp
-server:
-  docroot: web
+
+@development:
+  ssh: vagrant@makeupbysamy.test/srv/www/makeupbysamy.com/current
+
+@staging:
+  ssh: web@167.172.250.212/srv/www/staging.makeupbysamy.com/current
+
+@production:
+  ssh: web@167.172.250.212/srv/www/makeupbysamy.com/current
+
+@all:
+ - @development
+ - @staging
+ - @production
+
+
