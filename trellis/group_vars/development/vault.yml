@@ -8,3 +8,10 @@ vault_wordpress_sites:
     admin_password: "bellavista"
     env:
       db_password: ":t!>~sB39hHG6z-:"
+
+vault_wordpress_sites:
+  staging.makeupbysamy.com:
+    admin_password: "bellavista"
+    env:
+      db_password: ":t!>~sB39hHG6z-:"
+
